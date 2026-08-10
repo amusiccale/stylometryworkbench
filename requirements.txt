@@ -1,0 +1,9 @@
+nicegui
+numpy
+pandas
+scikit-learn
+plotly
+spacy
+umap-learn
+python-docx
+joblib
