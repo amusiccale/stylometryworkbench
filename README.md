@@ -5,6 +5,8 @@ The Stylometric Fingerprint Workbench is a desktop application for exploring wri
 The Workbench can compare authors, compare documents, generate visualizations, and help researchers identify stylistic similarities and differences across a corpus.
 
 ---
+<img width="584" height="1003" alt="Screenshot 2026-08-10 at 1 46 33 PM" src="https://github.com/user-attachments/assets/54a9fb77-7213-4ab6-9de5-042caa00f328" />
+---
 
 # Main Features
 
