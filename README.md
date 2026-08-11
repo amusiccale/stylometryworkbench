@@ -6,6 +6,7 @@ The Workbench can compare authors, compare documents, generate visualizations, a
 
 ---
 <img width="578" height="503" alt="Screenshot 2026-08-10 at 1 46 33 PM" src="https://github.com/user-attachments/assets/b7a8b0fb-be95-4654-9a40-14f11a80b9a3" />
+
 ---
 
 # Main Features
