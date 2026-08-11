@@ -58,6 +58,13 @@ def add_navigation():
                 ui.navigate.to("/corpus")
         )
 
+        ui.button(
+            "Workbench Assistant",
+            on_click=lambda:
+                ui.navigate.to(
+                    "/assistant"
+                )
+        )
 
 def page_header(title):
     """

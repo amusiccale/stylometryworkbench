@@ -1,0 +1,7 @@
+{
+    "enabled": true,
+    "endpoint": "http://localhost:5001/v1",
+    "api_key": "",
+    "model": "llama3",
+    "temperature": 0.2
+}
