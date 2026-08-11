@@ -1,15 +1,38 @@
 from pathlib import Path
 
+#
 # Base project directory
+#
+
 BASE_DIR = Path(__file__).resolve().parent
 
-# Data storage locations
+#
+# User data directory
+#
+
 DATA_DIR = BASE_DIR / "data"
+
+DATA_DIR.mkdir(
+    parents=True,
+    exist_ok=True,
+)
+
 CACHE_PATH = DATA_DIR / "cache"
 FINGERPRINT_PATH = DATA_DIR / "fingerprints"
 
-# SQLite database file
-DATABASE_PATH = DATA_DIR / "stylometry.db"
+CACHE_PATH.mkdir(
+    parents=True,
+    exist_ok=True,
+)
 
-# NiceGUI application port
+FINGERPRINT_PATH.mkdir(
+    parents=True,
+    exist_ok=True,
+)
+
+DATABASE_PATH = (
+    DATA_DIR /
+    "stylometry.db"
+)
+
 APP_PORT = 8080

@@ -40,6 +40,9 @@ from gui.corpus_explorer import (
 from gui.compare_documents import (
     compare_documents_page,
 )
+from gui.assistant_page import (
+    assistant_page,
+)
 
 @ui.page("/")
 def index():
@@ -76,6 +79,11 @@ def compare_authors():
 def corpus():
 
     corpus_explorer_page()
+
+@ui.page("/assistant")
+def assistant_route():
+
+    assistant_page()
 
 ui.run(
     title=(
