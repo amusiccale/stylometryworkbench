@@ -108,11 +108,11 @@ The assistant can:
 
 Supported local LLM backends include:
 
-- Ollama
-- KoboldCpp
-- LM Studio
-- vLLM
-- OpenAI-compatible APIs
+- Ollama*
+- KoboldCpp*
+- LM Studio*
+- vLLM*
+- OpenAI-compatible APIs (see llm_settings.json and customize as needed)
 
 The assistant is optional and the Workbench works normally without it.
 
@@ -134,8 +134,6 @@ Additional guides are included in the project:
 
 ```text
 INTERPRETING_RESULTS_AND_VISUALIZATIONS.md
-
-APPENDIX_C_WORKBENCH_ASSISTANT_ROADMAP.md
 ```
 
 ---
